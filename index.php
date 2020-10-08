@@ -12,6 +12,8 @@
     
     // $return =  SAPIDKDolar\Core::DolarSiCotiCapi();
 
+    // $return = SAPIDKDolar\Core::BancoNacion();
+
 
     echo "<pre>";
 	print_r($return);

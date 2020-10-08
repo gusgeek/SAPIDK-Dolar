@@ -131,6 +131,24 @@
 
 		}
 
+		public static function BancoNacion () {
+
+			$url = "http://www.bna.com.ar/Cotizador/MonedasHistorico";
+			$lineas = file($url);
+			foreach($lineas as $k => $v) {
+			    $array[] =  utf8_encode(trim(strip_tags($v)));
+			}
+			$s = "Dolar U.S.A";
+			$key = array_search($s, $array);
+			$cotizacion = ltrim($lineas[$key +2]);
+			$cotizacion2 = ltrim($lineas[$key +1]);
+
+			return array(
+				'bna-c' => $cotizacion, 
+				'bna-v' => $cotizacion2 
+			);
+
+		}
 
 	}
 
