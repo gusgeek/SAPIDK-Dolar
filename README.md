@@ -4,7 +4,7 @@ Obtén la Cotización del Dólar desde distintas entidades
 ### Antes de continuar
 Si visita este proyecto con el fin de descargar una copia y empezar a trabajar, es ***altamente - recomendable*** que descargue [la ultima version compilada en las build](https://github.com/gusgeek/SAPIDK-Dolar/releases/latest).
 
-Nos sentiremos feliz de que en su proyecto nombre a SAPIDK-MP.
+Nos sentiremos feliz de que en su proyecto nombre a SAPIDK-Dólar.
 
 ## Resumen
 Este software, nacido como proyecto interno, está pensado para simplificar la obtencion de la cotizacion del dolar segun entidades.
