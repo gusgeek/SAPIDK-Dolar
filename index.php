@@ -2,7 +2,7 @@
 
 	include('./library.php');
 
-    $return = SAPIDKDolar\Core::BuenBit();
+    $return = SAPIDKDolar\Core::AmbitoOficial();
 
     // $return =  SAPIDKDolar\Core::Galicia();
 
