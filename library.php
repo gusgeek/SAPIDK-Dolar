@@ -174,12 +174,138 @@
 			return $monedas;
 
 		}
+
 		public static function AmbitoFuturo () {
 
 			$curl = curl_init();
 
 			curl_setopt_array($curl, array(
 			  CURLOPT_URL => "https://mercados.ambito.com/dolarfuturo/datos",
+			  CURLOPT_RETURNTRANSFER => true,
+			  CURLOPT_ENCODING => "",
+			  CURLOPT_MAXREDIRS => 10,
+			  CURLOPT_TIMEOUT => 0,
+			  CURLOPT_FOLLOWLOCATION => true,
+			  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+			  CURLOPT_CUSTOMREQUEST => "GET",
+			));
+
+			$response = curl_exec($curl);
+
+			curl_close($curl);
+
+			$monedas = json_decode($response, true);
+
+			return $monedas;
+
+		}
+
+		public static function AmbitoCCL () {
+
+			$curl = curl_init();
+
+			curl_setopt_array($curl, array(
+			  CURLOPT_URL => "https://mercados.ambito.com/dolarrava/cl/variacion",
+			  CURLOPT_RETURNTRANSFER => true,
+			  CURLOPT_ENCODING => "",
+			  CURLOPT_MAXREDIRS => 10,
+			  CURLOPT_TIMEOUT => 0,
+			  CURLOPT_FOLLOWLOCATION => true,
+			  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+			  CURLOPT_CUSTOMREQUEST => "GET",
+			));
+
+			$response = curl_exec($curl);
+
+			curl_close($curl);
+
+			$monedas = json_decode($response, true);
+
+			return $monedas;
+
+		}
+
+		public static function AmbitoMEP () {
+
+			$curl = curl_init();
+
+			curl_setopt_array($curl, array(
+			  CURLOPT_URL => "https://mercados.ambito.com/dolarrava/mep/variacion",
+			  CURLOPT_RETURNTRANSFER => true,
+			  CURLOPT_ENCODING => "",
+			  CURLOPT_MAXREDIRS => 10,
+			  CURLOPT_TIMEOUT => 0,
+			  CURLOPT_FOLLOWLOCATION => true,
+			  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+			  CURLOPT_CUSTOMREQUEST => "GET",
+			));
+
+			$response = curl_exec($curl);
+
+			curl_close($curl);
+
+			$monedas = json_decode($response, true);
+
+			return $monedas;
+
+		}
+
+		public static function AmbitoMayorista () {
+
+			$curl = curl_init();
+
+			curl_setopt_array($curl, array(
+			  CURLOPT_URL => "https://mercados.ambito.com/dolar/mayorista/variacion",
+			  CURLOPT_RETURNTRANSFER => true,
+			  CURLOPT_ENCODING => "",
+			  CURLOPT_MAXREDIRS => 10,
+			  CURLOPT_TIMEOUT => 0,
+			  CURLOPT_FOLLOWLOCATION => true,
+			  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+			  CURLOPT_CUSTOMREQUEST => "GET",
+			));
+
+			$response = curl_exec($curl);
+
+			curl_close($curl);
+
+			$monedas = json_decode($response, true);
+
+			return $monedas;
+
+		}
+
+		public static function AmbitoTurista () {
+
+			$curl = curl_init();
+
+			curl_setopt_array($curl, array(
+			  CURLOPT_URL => "https://mercados.ambito.com/dolar/dolarturista/variacion",
+			  CURLOPT_RETURNTRANSFER => true,
+			  CURLOPT_ENCODING => "",
+			  CURLOPT_MAXREDIRS => 10,
+			  CURLOPT_TIMEOUT => 0,
+			  CURLOPT_FOLLOWLOCATION => true,
+			  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+			  CURLOPT_CUSTOMREQUEST => "GET",
+			));
+
+			$response = curl_exec($curl);
+
+			curl_close($curl);
+
+			$monedas = json_decode($response, true);
+
+			return $monedas;
+
+		}
+
+		public static function AmbitoBlue () {
+
+			$curl = curl_init();
+
+			curl_setopt_array($curl, array(
+			  CURLOPT_URL => "https://mercados.ambito.com/dolar/informal/variacion",
 			  CURLOPT_RETURNTRANSFER => true,
 			  CURLOPT_ENCODING => "",
 			  CURLOPT_MAXREDIRS => 10,
