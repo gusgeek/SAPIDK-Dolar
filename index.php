@@ -2,7 +2,7 @@
 
 	include('./library.php');
 
-    $return = SAPIDKDolar\Core::AmbitoBlue();
+    $return = phpDolar\Core::AmbitoBlue();
 
     // $return =  SAPIDKDolar\Core::Galicia();
 

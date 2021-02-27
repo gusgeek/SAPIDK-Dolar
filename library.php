@@ -1,7 +1,7 @@
 <?php 
 
 	
-	namespace SAPIDKDolar;
+	namespace phpDolar;
 
 	class Core{
 
