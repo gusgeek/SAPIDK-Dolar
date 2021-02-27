@@ -25,7 +25,7 @@ Mi intención, no es más que la de colaborar con una nueva herramienta sin áni
 
 Acá viene la parte divertida, y espero poder explicarme lo mejor posible.
 
-SAPI-DK Dólar Funciona mediante solicitudes cURL a la API de las distintas plataformas. Mediante funciones de PHP podemos obtener un jSon como Array y asi trabajar las respuestas y solicitudes de la plataforma de manera más sencilla y entera que el SDK Original.
+phpDolar Funciona mediante solicitudes cURL a la API de las distintas plataformas. Mediante funciones de PHP podemos obtener un jSon como Array y asi trabajar las respuestas y solicitudes de la plataforma de manera más sencilla y entera que el SDK Original.
 
 ## Wiki y Manual
 Desde la [Wiki](https://github.com/gusgeek/phpDolar/wiki) podran acceder a toda la informacion sobre el uso y como integrarlo de manera eficiente
