@@ -36,10 +36,10 @@ SAPI-DK Dólar Funciona mediante solicitudes cURL a la API de las distintas plat
 Desde la [Wiki](https://github.com/gusgeek/SAPIDK-Dolar/wiki) podran acceder a toda la informacion sobre el uso y como integrarlo de manera eficiente
 <br><br>
 <p align="center">
-    <img src="https://img.shields.io/github/downloads/gusgeek/pyDolar-app/total">  
-    <img src="https://img.shields.io/github/v/release/gusgeek/pyDolar-app">  
-    <img src="https://img.shields.io/github/release-date/gusgeek/pyDolar-app">  
-    <img src="https://img.shields.io/github/languages/code-size/gusgeek/pyDolar-app">
+    <img src="https://img.shields.io/github/downloads/gusgeek/SAPIDK-Dolar/total">  
+    <img src="https://img.shields.io/github/v/release/gusgeek/SAPIDK-Dolar">  
+    <img src="https://img.shields.io/github/release-date/gusgeek/SAPIDK-Dolar">  
+    <img src="https://img.shields.io/github/languages/code-size/gusgeek/SAPIDK-Dolar">
   <br><br>
   <strong>:pencil2: con :heart:</strong>
 </p>
