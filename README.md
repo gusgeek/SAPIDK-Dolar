@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/gusgeek/SAPIDK-Dolar/main/sapidklog.png">
+<img src="https://raw.githubusercontent.com/gusgeek/phpDolar/main/phpdolar.png">
   <br>
   Obtén la Cotización del Dólar desde distintas entidades en PHP
 </p>
@@ -20,11 +20,6 @@ Mi intención, no es más que la de colaborar con una nueva herramienta sin áni
       <a href="https://github.com/gusgeek/pyDolar-lib"> Integrarlo en mi Sistema Python  </a>
     </strong>
   </p>
-
-## ¿Porque SAPI-DK?
-El lenguaje español, es increíble. Sus formas y características de poder hacer que una palabra tenga más de un sentido. A estas, las suelo llamar Palabras Maleta.  
-
-SAPI-DK nace como un juego de combinación de API y SDK, decidí llamarlo de una forma peculiar llevando un poco del juego que hace el español: Software Application Programming Interface, Development Kit, que en español sería algo como Software para la Interfaz de programación de aplicaciones, kit de desarrollo.
 
 ## ¿Como Funciona?
 
