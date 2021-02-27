@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/gusgeek/SAPIDK-Dolar/main/sapidklog.png">
+<img src="https://raw.githubusercontent.com/gusgeek/phpDolar/main/phpdolar.png">
   <br>
   Obtén la Cotización del Dólar desde distintas entidades en PHP
 </p>
