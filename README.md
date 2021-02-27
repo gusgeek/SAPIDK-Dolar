@@ -14,8 +14,8 @@ Mi intención, no es más que la de colaborar con una nueva herramienta sin áni
   <strong>Tenga presente que este codigo es un experimento</strong>
   <br><br>
     <strong>
-      <a href="https://github.com/gusgeek/SAPIDK-Dolar/issues/new"> Ofrecer una Idea </a> | 
-      <a href="https://github.com/gusgeek/SAPIDK-Dolar/releases/latest"> Obtenerlo </a>
+      <a href="https://github.com/gusgeek/phpDolar/issues/new"> Ofrecer una Idea </a> | 
+      <a href="https://github.com/gusgeek/phpDolar/releases/latest"> Obtenerlo </a>
       <br> 
       <a href="https://github.com/gusgeek/pyDolar-lib"> Integrarlo en mi Sistema Python  </a>
     </strong>
@@ -33,13 +33,13 @@ Acá viene la parte divertida, y espero poder explicarme lo mejor posible.
 SAPI-DK Dólar Funciona mediante solicitudes cURL a la API de las distintas plataformas. Mediante funciones de PHP podemos obtener un jSon como Array y asi trabajar las respuestas y solicitudes de la plataforma de manera más sencilla y entera que el SDK Original.
 
 ## Wiki y Manual
-Desde la [Wiki](https://github.com/gusgeek/SAPIDK-Dolar/wiki) podran acceder a toda la informacion sobre el uso y como integrarlo de manera eficiente
+Desde la [Wiki](https://github.com/gusgeek/phpDolar/wiki) podran acceder a toda la informacion sobre el uso y como integrarlo de manera eficiente
 <br><br>
 <p align="center">
-    <img src="https://img.shields.io/github/downloads/gusgeek/SAPIDK-Dolar/total">  
-    <img src="https://img.shields.io/github/v/release/gusgeek/SAPIDK-Dolar">  
-    <img src="https://img.shields.io/github/release-date/gusgeek/SAPIDK-Dolar">  
-    <img src="https://img.shields.io/github/languages/code-size/gusgeek/SAPIDK-Dolar">
+    <img src="https://img.shields.io/github/downloads/gusgeek/phpDolar/total">  
+    <img src="https://img.shields.io/github/v/release/gusgeek/phpDolar">  
+    <img src="https://img.shields.io/github/release-date/gusgeek/phpDolar">  
+    <img src="https://img.shields.io/github/languages/code-size/gusgeek/phpDolar">
   <br><br>
   <strong>:pencil2: con :heart:</strong>
 </p>
