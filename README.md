@@ -21,11 +21,6 @@ Mi intención, no es más que la de colaborar con una nueva herramienta sin áni
     </strong>
   </p>
 
-## ¿Porque SAPI-DK?
-El lenguaje español, es increíble. Sus formas y características de poder hacer que una palabra tenga más de un sentido. A estas, las suelo llamar Palabras Maleta.  
-
-SAPI-DK nace como un juego de combinación de API y SDK, decidí llamarlo de una forma peculiar llevando un poco del juego que hace el español: Software Application Programming Interface, Development Kit, que en español sería algo como Software para la Interfaz de programación de aplicaciones, kit de desarrollo.
-
 ## ¿Como Funciona?
 
 Acá viene la parte divertida, y espero poder explicarme lo mejor posible.
