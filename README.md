@@ -5,7 +5,7 @@
   Obtén la Cotización del Dólar desde distintas entidades en PHP
 </p>
 
-# Bienvenido
+# 
 Este software, nacido como proyecto interno, está pensado para simplificar la obtencion de la cotizacion del dolar segun entidades.
 
 Mi intención, no es más que la de colaborar con una nueva herramienta sin ánimos de generar daños ni por el estilo. Es por eso que decidí usar Github, para mostrar mi experimento al mundo, y quién sabe?, mejorarlo.
