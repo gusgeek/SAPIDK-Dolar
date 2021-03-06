@@ -1,8 +1,8 @@
 <?php 
 
-	include('./library.php');
+	include('./vendor/autoload.php');
 
-    $return = phpDolar\Core::AmbitoBlue();
+    $return = new phpDolar\Core();
 
     // $return =  SAPIDKDolar\Core::Galicia();
 
@@ -16,7 +16,7 @@
 
 
     echo "<pre>";
-	print_r($return);
+	print_r($return->DolarSiMonedas());
 	echo "</pre>";
 
 	

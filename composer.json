@@ -1,0 +1,17 @@
+{
+    "name": "gusgeek/phpdolar",
+    "description": "Obten la cotizacion del Dolar desde distintas entidades Argentinas",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Agustin Fernandez",
+            "email": "aaferna@outlook.com.ar"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "files": ["library.php"]
+    }
+}
